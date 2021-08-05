@@ -1,8 +1,17 @@
 {
-  "name": "crawlTruyenfull-js",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/weebNeedWeed/crawlTruyenfull-js.git",
-  "author": "Weed <rivenmle@gmail.com>",
-  "license": "MIT"
+    "name": "crawlTruyenfull-js",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/weebNeedWeed/crawlTruyenfull-js.git",
+    "author": "Weed <rivenmle@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cheerio": "^1.0.0-rc.10",
+        "minimist": "^1.2.5",
+        "node-fetch": "^2.6.1"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "node src/index.js"
+    }
 }
